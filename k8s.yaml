@@ -1,5 +1,5 @@
-#Here is an example of the k8s manifest which is used to deploy an application. when the user tries to hit the service endpoint(http://myservice:3000) it returns 500. 
-#Can you analyze the yaml and find the reason?
+#This is an example of a Kubernetes manifest that is used to deploy an application. However, when the user tries to access the service endpoint by using the command "curl http://myservice:3000", 
+#they are receiving an error. Can you please review the YAML and help identify the cause of the issue?
 apiVersion: apps/v1
 kind: Deployment
 metadata:
